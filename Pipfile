@@ -1,0 +1,23 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+djangorestframework = "==3.12.2"
+
+[dev-packages]
+
+[requires]
+python_version = "3.9"
+django-cors-headers = "==3.7.0"
+pillow = "*"
+psycopg2-binary = "==2.8.6"
+
+[scripts]
+start = "python manage.py runserver"
+makemigrations = "python manage.py makemigrations"
+migrate = "python manage.py migrate"
+collectstatic = "python manage.py collectstatic"
+createsuperuser = "python manage.py createsuperuser"
+shell = "python manage.py shell"
