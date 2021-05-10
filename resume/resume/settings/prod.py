@@ -2,7 +2,9 @@ from resume.settings.base import *
 
 DEBUG = False
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = [
+	'128.199.144.194',
+]
 
 DATABASES = {
     'default': {
