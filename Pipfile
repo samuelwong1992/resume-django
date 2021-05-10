@@ -5,17 +5,17 @@ name = "pypi"
 
 [packages]
 djangorestframework = "==3.12.2"
+django-cors-headers = "==3.7.0"
+pillow = "*"
+psycopg2-binary = "==2.8.6"
 
 [dev-packages]
 
 [requires]
 python_version = "3.9"
-django-cors-headers = "==3.7.0"
-pillow = "*"
-psycopg2-binary = "==2.8.6"
 
 [scripts]
-start = "python manage.py runserver"
+start = "python manage.py runserver 127.0.0.1:8001"
 makemigrations = "python manage.py makemigrations"
 migrate = "python manage.py migrate"
 collectstatic = "python manage.py collectstatic"
