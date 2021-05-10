@@ -4,6 +4,7 @@ DEBUG = False
 
 ALLOWED_HOSTS = [
 	'128.199.144.194',
+	'localhost',
 ]
 
 DATABASES = {
