@@ -4,7 +4,13 @@ DEBUG = False
 
 ALLOWED_HOSTS = [
 	'128.199.144.194',
+    'api.swongdev.com',
 	'localhost',
+]
+
+CORS_ALLOWED_ORIGINS = [
+    "http://swongdev.com/",
+    "http://www.swongdev.com/",
 ]
 
 DATABASES = {
