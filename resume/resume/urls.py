@@ -20,7 +20,7 @@ from django.conf import settings
 from api import views
 
 urlpatterns = [
-    path('admin/', admin.site.urls),
+    path('api/admin/', admin.site.urls),
     path('api/fetch-projects/', views.get_all_projects),
     path('api/fetch-project/<int:pk>/', views.get_project),
 ]
