@@ -9,8 +9,8 @@ ALLOWED_HOSTS = [
 ]
 
 CORS_ALLOWED_ORIGINS = [
-    "http://swongdev.com/",
-    "http://www.swongdev.com/",
+    "https://swongdev.com/",
+    "https://www.swongdev.com/",
 ]
 
 DATABASES = {
